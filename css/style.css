@@ -38,11 +38,11 @@ body {
     border: 1px solid #960909;
   }
   
-  form button:hover,
-  form button:focus {
+  form button:hover{
     background-color: #fff;
     color: #960909;
     border-color: #960909;
+    cursor: pointer;
   }
 
   .task {

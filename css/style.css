@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 40px 20px;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+  }
+
+  .app {
+    border: 2px solid #000;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #f0e3cf;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+    width: 800px;
+  }
+
+  .input-style {
+    width: 250px;
+    height: 30px;
+    margin: 10px 0;
+  }
+
+  select {
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+  }
+
+  form button {
+    padding: 10px 20px;
+    background-color: #960909;
+    color: #fff;
+    border: 1px solid #960909;
+  }
+  
+  form button:hover,
+  form button:focus {
+    background-color: #fff;
+    color: #960909;
+    border-color: #960909;
+  }
+
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 5px solid;
+  }
+
+  .high {
+    border-color: #ff0000;
+  }
+
+  .medium {
+    border-color: #ffa500;
+  }
+
+  .low {
+    border-color: #008000;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: #bababa;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+
+  .remove-button {
+    color: #ff0000;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+  }
+
+  @media (max-width:767px) {
+    .app {
+      text-align: center;
+    }
+  }
